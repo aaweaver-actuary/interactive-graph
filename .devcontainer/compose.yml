@@ -1,0 +1,8 @@
+services:
+  rust:
+    image: aaweaver9/rust:latest
+    volumes:
+      - .:/app
+    working_dir: /app
+
+    

@@ -1,0 +1,13 @@
+[package]
+name = "bop-coverage-graph"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+petgraph = "0.6.4"
+polars = "0.38.3"
+serde = "1.0.197"
+serde_json = "1.0.115"
+wasm-bindgen = "0.2.92"
